@@ -11,11 +11,11 @@ for(i = 1; i <= n; i++)
 for(j = i; j <= n; j++)
 {
 if (i == 1 || j == n || j == i)
-System.out.print(j);
+System.out.print(j + " ");
 else
-System.out.print(" ");
+System.out.print("  ");
 }
-System.out.println();
+System.out.println( );
 }
 }
 }
